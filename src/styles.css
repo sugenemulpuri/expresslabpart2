@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: url("src/assets/suge-gradient.jpg");
+    position: relative;
+ }
+ main {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    transform: translateX(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+ }
+ .items-2 {
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+ .form {
+    display: flex;
+    position: absolute;
+ }
+ .button {
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+ }
